@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <BaseIntermediateOutputPath>D:\НАУ\2 курс\2 семестр\АтаППЗ\Lab4-5\Blog.API\obj</BaseIntermediateOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
