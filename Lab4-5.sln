@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.DAL", "Blog.DAL\Blog.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.BLL", "Blog.BLL\Blog.BLL.csproj", "{9994C9D0-FD80-4AFE-AD65-8637D47932B4}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "blog.client-app", "Blog.ClientApp\blog.client-app.esproj", "{7F9DE696-D188-416C-8A16-255CAE12A947}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Blog.ClientApp", "Blog.ClientApp\Blog.ClientApp.esproj", "{7F9DE696-D188-416C-8A16-255CAE12A947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

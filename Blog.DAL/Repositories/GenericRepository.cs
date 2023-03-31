@@ -7,7 +7,7 @@ namespace Blog.DAL.Repositories;
 
 public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
 {
-    private readonly BlogDataContext _dbContext;
+    private readonly DbContext _dbContext;
 
     public GenericRepository(BlogDataContext dbContext)
     {
