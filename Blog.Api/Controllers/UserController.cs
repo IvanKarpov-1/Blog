@@ -1,28 +1,43 @@
-﻿using Blog.BLL.Services;
-using Blog.DAL.Models;
+﻿using Blog.BLL.ModelsDTO;
+using Blog.BLL.Services.Users;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blog.API.Controllers
 {
-    public class UserController : BaseApiController
+    public class UsersController : BaseApiController
     {
-        private readonly UserService _userService;
-
-        public UserController(UserService userService)
+        [HttpGet] // api/users
+        public async Task<ActionResult<List<UserDto>>> GetUsers()
         {
-            _userService = userService;
+            return await Mediator.Send(new List.Query());
         }
 
-        [HttpGet] // api/user
-        public async Task<ActionResult<List<User>>> GetUsers()
+        [HttpGet("{id:guid}")] // api/users/id
+        public async Task<ActionResult<UserDto>> GetUser(Guid id)
         {
-            return await _userService.GetAsync();
+            return await Mediator.Send(new Details.Query { Id = id });
         }
 
-        [HttpGet("{id}")] // api/user/id
-        public async Task<ActionResult<User>> GetUser(Guid id)
+        [HttpPost] // api/users
+        public async Task<IActionResult> CreateUser(UserDto user)
         {
-            return await _userService.GetById(id);
+            await Mediator.Send(new Create.Command { User = user });
+            return Ok();
+        }
+
+        [HttpPut("{id:Guid}")] // api/users/id
+        public async Task<IActionResult> EditUser(Guid id, UserDto user)
+        {
+            user.Id = id;
+            await Mediator.Send(new Edit.Command { User = user });
+            return Ok();
+        }
+
+        [HttpDelete("{id:guid}")] // app/users/id
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            await Mediator.Send(new Delete.Command { Id = id });
+            return Ok();
         }
     }
 }
