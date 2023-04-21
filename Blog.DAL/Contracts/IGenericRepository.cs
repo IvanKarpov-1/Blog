@@ -12,9 +12,11 @@ public interface IGenericRepository<TEntity> where TEntity : class
     public void Remove(TEntity entity);
     public void RemoveRange(IEnumerable<TEntity> entity);
 
-    Task<TEntity> GetByIdAsync(Guid id);
-    Task<List<TEntity>> GetAllAsync();
-    Task<List<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate);
-    Task<Task> AddAsync(TEntity entity);
-    Task<Task> AddRangeAsync(IEnumerable<TEntity> entities);
+    public Task<TEntity> GetByIdAsync(Guid id);
+    public Task<List<TEntity>> GetAllAsync();
+    public Task<List<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate);
+    public Task<Task> AddAsync(TEntity entity);
+    public Task<Task> AddRangeAsync(IEnumerable<TEntity> entities);
+
+    public IQueryable<TEntity> GetQueryable();
 }

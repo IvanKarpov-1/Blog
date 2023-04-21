@@ -1,0 +1,426 @@
+<mxfile host="app.diagrams.net" modified="2023-04-21T15:56:07.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bk_q0I1eRMLuLJvR2HnP" version="21.1.8" type="device">
+  <diagram name="Страница 1" id="ez9OZmb6Qj9RY70HGJuC">
+    <mxGraphModel dx="2868" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-1" target="Cyd2AB0cLDIkgjIXQQ4r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-1" target="Cyd2AB0cLDIkgjIXQQ4r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-1" value="Blog.API&lt;br&gt;" style="html=1;whiteSpace=wrap;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-2" target="Cyd2AB0cLDIkgjIXQQ4r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-2" value="Blog.ClientApp" style="html=1;whiteSpace=wrap;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="180" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-3" target="Cyd2AB0cLDIkgjIXQQ4r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-3" value="Blog.BLL&lt;br&gt;" style="html=1;whiteSpace=wrap;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-4" value="Blog.DAL" style="html=1;whiteSpace=wrap;fontSize=14;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-5" target="Cyd2AB0cLDIkgjIXQQ4r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-5" value="Blog.Infrastructure" style="html=1;whiteSpace=wrap;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-11" target="Cyd2AB0cLDIkgjIXQQ4r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-11" value="Blog.BLL.Tests&lt;br&gt;" style="html=1;whiteSpace=wrap;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;BaseApiController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _mediator: IMediator&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;# Mediator: IMediator&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;# HandleResult&amp;lt;T&amp;gt;(Result&amp;lt;T&amp;gt;): ActionResult&lt;br style=&quot;font-size: 14px;&quot;&gt;# HandleResult&amp;lt;T&amp;gt;(Result&amp;lt;PagedList&amp;lt;T&amp;gt;&amp;gt;): ActionResult&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1050" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-14" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;AccountController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Login(LoginDto): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Register(RegisterDto): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetCurrentUser(): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" y="200" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-15" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-16" target="Cyd2AB0cLDIkgjIXQQ4r-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="370" as="sourcePoint" />
+            <mxPoint x="1060" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;ArticlesController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetArticle(ArticleDto): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetArticle(Guid): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreateArticle(ArticleDto): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ EditArticle(Guid, ArticleDto): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ DeleteArticle(Guid): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" y="370" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-19" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;ProfilesController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetProfile(string): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ EditProfile(Edit.Command): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" y="570" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-20" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-14" target="Cyd2AB0cLDIkgjIXQQ4r-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="370" as="sourcePoint" />
+            <mxPoint x="1060" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-21" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-19" target="Cyd2AB0cLDIkgjIXQQ4r-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="370" as="sourcePoint" />
+            <mxPoint x="1060" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-22" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;RubricsController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetRubrics(Guid): Task&amp;lt;IActionResult&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" y="720" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-23" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;ApplicationServiceExtensions&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;AddApplicationServices(this IServiceCollection): IServiceCollection&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="200" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-24" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;HttpExtensions&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;AddPaginationHeader(this HttpResponse, int, int, int, int): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="340" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-25" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;ExceptionMiddleware&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _next: RequestDelegate&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _logger: ILogger&amp;lt;ExceptionMiddleware&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _environment: IHostEnvironment&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;ExceptionMiddleware(RequestDelegate, ILigger&amp;lt;ExceptionMiddleware&amp;gt;, IHostEnvironment)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;InvokeAsync(HttpContext): Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="480" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-26" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;CommentHub&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _mediator: IMediator&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ SendComment(Create.Command, Guid): Task&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ EditComment(CommentDto, Guid): Task&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ DeleteComment(CommentDto): Task&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;OnConnectedAsync(): Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="680" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-28" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-22" target="Cyd2AB0cLDIkgjIXQQ4r-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="370" as="sourcePoint" />
+            <mxPoint x="1060" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-29" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;Program&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-30" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;i style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;IUserAccessor&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetUserName(): string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2080" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-31" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;AppException&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;+ &lt;/i&gt;StatusCode: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Message: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Details: String&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ AppException(int, string, string)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="150" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-32" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;MapperlyMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Map&amp;lt;From, To&amp;gt;(From): To&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Map&amp;lt;From, To&amp;gt;(From, To): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="330" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-33" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;PagedList&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;propeties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CurrentPage: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ TotalPages: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ PageSize: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ TotalCount: int&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ PagedList(IEnumerable&amp;lt;T&amp;gt;, int, int, int)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ PagedList(IEnumerable&amp;lt;T&amp;gt;, int, int, int, int)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ static CreateAsync(IQueryable&amp;lt;T&amp;gt;, int, int): Task&amp;lt;PagedList&amp;lt;T&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="170" width="430" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-34" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&amp;lt;&amp;lt;static&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;PagedListMapper&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ static Map&amp;lt;TMapFrom, TMapTo&amp;gt;(this PagedList&amp;lt;TMapFrom&amp;gt;, Func&amp;lt;TMapFrom, TMapTo&amp;gt;): PagedList&amp;lt;TMapTo&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2310" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-35" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;PagingParams&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- MaxPageSize: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _pageSize: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ PageNumber: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ PageSize: int&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="460" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-36" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;Result&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properies&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ IsSuccess: bool&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Value: T&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Error: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ ValidationError: bool&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ static Success(T): Result&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ static Failure(string): Result&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ IsValidationError(): Result&amp;lt;T&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="420" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-38" value="ModelsDTOs" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="650" width="940" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-39" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;Commentable&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Id: Guid&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Comments: ICollection&amp;lt;CommentDto&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="18" y="40" width="262" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-40" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;CommentDto&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Content: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Author: ProfileDto&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ ParentId: Guid&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="18" y="190" width="262" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-42" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-40" target="Cyd2AB0cLDIkgjIXQQ4r-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="40" y="390" as="sourcePoint" />
+            <mxPoint x="200" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-43" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-40" target="Cyd2AB0cLDIkgjIXQQ4r-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="370" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-44" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;ArticleDto&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Title: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Description: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Content: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Author: ProfileDto&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ RubricName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ RubricId: Guid&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="320" y="40" width="262" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-45" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.29;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-44" target="Cyd2AB0cLDIkgjIXQQ4r-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="320" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-46" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;ProfileDto&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Id: Guid&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ UserName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ DisplayName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Bio: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Email: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Image: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ IsDeleted: bool&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="320" y="270" width="262" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-48" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-46" target="Cyd2AB0cLDIkgjIXQQ4r-44">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="280" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-49" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-46" target="Cyd2AB0cLDIkgjIXQQ4r-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="430" as="sourcePoint" />
+            <mxPoint x="250" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-50" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;i style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;IHierarchical&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;+ Parent: T&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="656" y="40" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-51" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;RubricDto&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Id: Guid&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Rubrics: ICollection&amp;lt;RubricDto&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="620" y="190" width="262" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-52" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-51" target="Cyd2AB0cLDIkgjIXQQ4r-50">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="970" y="210" as="sourcePoint" />
+            <mxPoint x="1130" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;endSize=24;startArrow=diamondThin;startFill=1;targetPerimeterSpacing=15;sourcePerimeterSpacing=14;startSize=24;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-51" target="Cyd2AB0cLDIkgjIXQQ4r-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="225" />
+              <mxPoint x="920" y="170" />
+              <mxPoint x="817" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-55" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;LoginDto&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Email: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Password: string&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="620" y="370" width="262" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38" source="Cyd2AB0cLDIkgjIXQQ4r-55" target="Cyd2AB0cLDIkgjIXQQ4r-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-57" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;RegisterDto&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Email: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Password: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ DisplayName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ UserName: string&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="18" y="379" width="262" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-58" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;UserDto&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Token: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Image: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ DisplayName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ UserName: string&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry x="320" y="519" width="262" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-59" value="Services" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2780" width="430" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-60" value="Articles" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-59">
+          <mxGeometry x="10" y="40" width="410" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-61" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;List&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-60">
+          <mxGeometry x="10" y="40" width="390" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-62" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;Query&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ ArticleParams: ArticleParams&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-60">
+          <mxGeometry x="20" y="80" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-67" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;Handler&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _unitOfWork: IUnitOfWork&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _mapper: MapperlyMapper&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _userAccessor: IUserAccessor&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Handler(IUnitOfWork, MapperlyMapper, IUserAccessor)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Handle(Query, CancellationToken): Task&amp;lt;Result&amp;lt;PagedList&amp;lt;ArticleDto&amp;gt;&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-60">
+          <mxGeometry x="20" y="190" width="370" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-80" value="Інші аналогічно" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-60">
+          <mxGeometry x="145" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-81" value="Інші аналогічно" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-59">
+          <mxGeometry x="140" y="520" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-82" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.222;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.878;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-59" target="Cyd2AB0cLDIkgjIXQQ4r-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3010" y="650" as="sourcePoint" />
+            <mxPoint x="3170" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-83" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.552;exitDx=0;exitDy=0;entryX=1;entryY=0.57;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-61" target="Cyd2AB0cLDIkgjIXQQ4r-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2610" y="630" as="sourcePoint" />
+            <mxPoint x="2770" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-84" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.007;entryY=0.105;entryDx=0;entryDy=0;exitX=-0.005;exitY=0.771;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-59" target="Cyd2AB0cLDIkgjIXQQ4r-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2570" y="410" as="sourcePoint" />
+            <mxPoint x="2730" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-85" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.54;entryDx=0;entryDy=0;exitX=0;exitY=0.702;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-59" target="Cyd2AB0cLDIkgjIXQQ4r-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2560" y="400" as="sourcePoint" />
+            <mxPoint x="2720" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-86" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="Cyd2AB0cLDIkgjIXQQ4r-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2780" y="150" as="sourcePoint" />
+            <mxPoint x="2540" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2290" y="150" />
+              <mxPoint x="2290" y="130" />
+              <mxPoint x="2222" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-87" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.046;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-61" target="Cyd2AB0cLDIkgjIXQQ4r-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2570" y="140" as="sourcePoint" />
+            <mxPoint x="2730" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-88" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;i style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;IUnitOfWork&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetRepository&amp;lt;TEntity&amp;gt;(bool): IGenerigRepository&amp;lt;TEntity&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Commit: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CommitAsync: Task&amp;lt;int&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" y="960" width="403" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-90" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;i style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;IGenericRepository&amp;lt;TEntity&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetById(Guid): TEntity&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetAll(): IEnumerable&amp;lt;TEntity&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Find(Expression&amp;lt;Func&amp;lt;TEntity, bool&amp;gt;&amp;gt;): IEnumerable&amp;lt;TEntity&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Add(TEntity): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ AddRange(IEnumerable&amp;lt;TEntity&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Remove(TEntity): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ RemoveRange(IEnumerable&amp;lt;TEntity&amp;lt;): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ GetByIdAsync(Guid): Task&amp;lt;TEntity&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ GetAllAsync(): Task&amp;lt;List&amp;lt;TEntity&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ FindAsync(Expression&amp;lt;Func&amp;lt;TEntity, bool&amp;gt;&amp;gt;): Task&amp;lt;List&amp;lt;TEntity&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ AddAsync(TEntity): Task&amp;lt;Task&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ AddRangeAsync(IEnumerable&amp;lt;TEntity&amp;gt;): Task&amp;lt;Task&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ GetQueryable(): IQueriable&amp;lt;TEntity&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1140" width="443" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-92" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;BlogDataContext&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Rubrics: DbSet&amp;lt;Rubric&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Articles: DbSet&amp;lt;Article&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Comments: DbSet&amp;lt;Comment&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;BlogDataContext(DbContextOptions&amp;lt;BlogDataContext&amp;gt;)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Set&amp;lt;T&amp;gt;: DbSet&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ OnModelCreating(ModelBuilder): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1270" width="380" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-93" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;GenericRepository&amp;lt;TEntity&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;- &lt;/i&gt;_blogDbContext: BlogDataContext&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GenericRepository(BlogDataContext)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1140" width="380" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-94" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;UnitOfWork&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- _blogDbContext: BlogDataContext&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _repositories: Dictionary&amp;lt;Type, object&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _disposed&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ UnitOfWork(BlogDataContext)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="966.25" width="380" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-95" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-94" target="Cyd2AB0cLDIkgjIXQQ4r-88">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="1130" as="sourcePoint" />
+            <mxPoint x="760" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-96" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.153;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-93" target="Cyd2AB0cLDIkgjIXQQ4r-90">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="1420" as="sourcePoint" />
+            <mxPoint x="730" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-97" value="Models" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1490" width="930" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-98" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;Commentable&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Id: Guid&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Comments: ICollection&amp;lt;CommentDto&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="324" y="50" width="262" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-99" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Content: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Author: User&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Parent: Commentable&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="324" y="200" width="262" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-100" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-99" target="Cyd2AB0cLDIkgjIXQQ4r-98">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="346" y="400" as="sourcePoint" />
+            <mxPoint x="506" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-101" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-99" target="Cyd2AB0cLDIkgjIXQQ4r-98">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="386" y="380" as="sourcePoint" />
+            <mxPoint x="546" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-102" target="Cyd2AB0cLDIkgjIXQQ4r-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-102" target="Cyd2AB0cLDIkgjIXQQ4r-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-102" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;Article&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Title: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Description: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Content: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Author: User&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Rubric: Rubric&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="424" y="370" width="262" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.001;exitY=0.559;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitPerimeter=0;jumpStyle=none;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-104" target="Cyd2AB0cLDIkgjIXQQ4r-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-104" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ DisplayName: string&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Bio: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ IsDeleted: bool&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Comments: ICollection&amp;lt;Comment&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Articles: ICollection&amp;lt;Article&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="650" y="180" width="262" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-107" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;i style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;IHierarchical&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;+ Parent: T&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="56" y="220" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-108" target="Cyd2AB0cLDIkgjIXQQ4r-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-108" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;Rubric&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Id: Guid&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ CreatedDate: DateTime&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Parent: Rubric&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Rubrics: ICollection&amp;lt;Rubric&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ Articles: ICollection&amp;lt;Article&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="20" y="370" width="262" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-109" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-108" target="Cyd2AB0cLDIkgjIXQQ4r-107">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="530" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;endSize=24;startArrow=diamondThin;startFill=1;targetPerimeterSpacing=15;sourcePerimeterSpacing=14;startSize=24;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-108" target="Cyd2AB0cLDIkgjIXQQ4r-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="460" />
+              <mxPoint x="324" y="405" />
+              <mxPoint x="282" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-91" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;i style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ICommentable&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;+ Comments: ICollection&amp;lt;Comments&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="20" y="50" width="261" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-115" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-98" target="Cyd2AB0cLDIkgjIXQQ4r-91">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="196.5" y="100" as="sourcePoint" />
+            <mxPoint x="356.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-117" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-99" target="Cyd2AB0cLDIkgjIXQQ4r-107">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="275" as="sourcePoint" />
+            <mxPoint x="280" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-118" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;" edge="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97" source="Cyd2AB0cLDIkgjIXQQ4r-102" target="Cyd2AB0cLDIkgjIXQQ4r-98">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="704" y="410" as="sourcePoint" />
+            <mxPoint x="864" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-123" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;0..1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="348" y="345" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-124" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;0..*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="277" y="481" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-125" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="395" y="479" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-126" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="682" y="433" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-127" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;0..*&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="745" y="346" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-129" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="580" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-130" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;0..*&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cyd2AB0cLDIkgjIXQQ4r-97">
+          <mxGeometry x="618" y="250" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-122" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;0..*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2018" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-131" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;UserAccessor&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;properties&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _httpContextAccessor: IHttpContextAccessor&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ UserAccessor(IHttpContextAccessor)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ GetUserName(): string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1480" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-132" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;IsArticleAuthorRequirement&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1685" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-133" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;IsCommentAuthorRequirement&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1866" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-134" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;IsArticleAuthorRequirementHandler&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _unitOfWork: IUnitOfWork&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _httpContextAccessor&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;IsArticleAuthorRequirementHandler(IUnitOfWork, IHttpContextAccessor)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ HandleRequirementAsync(AuthorizationHandlerContext, IsArticleAuthorRequirement): Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1650" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-135" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;IsCommentAuthorRequirementHandler&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;- _unitOfWork: IUnitOfWork&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;IsCommentAuthorRequirementHandler(IUnitOfWork)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+ HandleRequirementAsync(AuthorizationHandlerContext, IsCommentAuthorRequirement): Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1850" width="370" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-137" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-135" target="Cyd2AB0cLDIkgjIXQQ4r-133">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1780" y="1990" as="sourcePoint" />
+            <mxPoint x="1940" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-138" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cyd2AB0cLDIkgjIXQQ4r-134" target="Cyd2AB0cLDIkgjIXQQ4r-132">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1610" y="1820" as="sourcePoint" />
+            <mxPoint x="1770" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-139" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;ApplicationServiceExtensions&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;AddDalServices(this IServiceCollection, IConfiguration): IServiceCollection&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;AddBllServices(this IServiceCollection): IServiceCollection&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2010" width="650" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyd2AB0cLDIkgjIXQQ4r-140" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;IdentityServiceExtensions&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;+&amp;nbsp;AddIdentityServices(this IServiceCollection, IConfiguration): IServiceCollection&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2160" width="650" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

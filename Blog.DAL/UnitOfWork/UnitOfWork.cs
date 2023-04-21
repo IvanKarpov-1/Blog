@@ -22,8 +22,8 @@ public class UnitOfWork : IUnitOfWork
         
         if (hasCustomRepository)
         {
-            var customRepo = _blogDbContext.GetService<IGenericRepository<TEntity>>();
-            return customRepo;
+            var customRepository = _blogDbContext.GetService<IGenericRepository<TEntity>>();
+            return customRepository;
         }
 
         var type = typeof(TEntity);

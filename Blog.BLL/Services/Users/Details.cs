@@ -1,33 +1,41 @@
 ﻿using Blog.BLL.Core;
-using Blog.BLL.ModelsDTO;
-using Blog.DAL.Contracts;
-using Blog.DAL.Models;
+using Blog.BLL.ModelsDTOs;
 using MediatR;
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+using Blog.DAL.Models;
 
 namespace Blog.BLL.Services.Users;
 
 public class Details
 {
-    public class Query : IRequest<UserDto>
+    public class Query : IRequest<Result<UserDto>>
     {
-        public Guid Id { get; set; }
+        public ClaimsPrincipal User { get; set; }
     }
 
-    public class Handler : IRequestHandler<Query, UserDto>
+    public class Handler : IRequestHandler<Query, Result<UserDto>>
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private readonly MapperlyMapper _mapper;
+        private readonly UserManager<User> _userManager;
+        private readonly TokenService _tokenService;
 
-        public Handler(IUnitOfWork unitOfWork, MapperlyMapper mapper)
+        public Handler(UserManager<User> userManager, TokenService tokenService)
         {
-            _unitOfWork = unitOfWork;
-            _mapper = mapper;
+            _userManager = userManager;
+            _tokenService = tokenService;
         }
 
-        public async Task<UserDto> Handle(Query request, CancellationToken cancellationToken)
+        public async Task<Result<UserDto>> Handle(Query request, CancellationToken cancellationToken)
         {
-            var user = await _unitOfWork.GetRepository<User>().GetByIdAsync(request.Id);
-            return _mapper.Map(user);
+            var user = await _userManager.FindByEmailAsync(request.User.FindFirstValue(ClaimTypes.Email)!);
+
+            return Result<UserDto>.Success(new UserDto
+            {
+                DisplayName = user.DisplayName,
+                Image = null,
+                Token = _tokenService.CreateToken(user),
+                UserName = user.UserName,
+            });
         }
     }
 }

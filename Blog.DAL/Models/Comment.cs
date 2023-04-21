@@ -1,22 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Blog.DAL.Contracts;
+﻿using Blog.DAL.Contracts;
 
 namespace Blog.DAL.Models;
 
-public class Comment : IHierarchical<ICommentable>, ICommentable
+public class Comment : Commentable, IHierarchical<Commentable>
 {
-    [Key]
-    public Guid Id { get; set; }
+    public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
     public string Content { get; set; }
-    public DateTime Created { get; set; }
-    public ICollection<Comment> Comments { get; set; }
-
-
-    //[ForeignKey("Author")]
-    public Guid AuthorId { get; set; }
+    
     public User Author { get; set; }
-    //[ForeignKey("Parent")]
-    [NotMapped]
-    public ICommentable Parent { get; set; }
+    public Commentable Parent { get; set; }
 }

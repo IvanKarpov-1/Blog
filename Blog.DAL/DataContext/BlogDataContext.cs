@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Blog.DAL.Models;
+﻿using Blog.DAL.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace Blog.DAL.DataContext;
 
-public class BlogDataContext : DbContext
+public class BlogDataContext : IdentityDbContext<User>
 {
     public BlogDataContext(DbContextOptions<BlogDataContext> options) : base(options) { }
 
@@ -11,8 +12,7 @@ public class BlogDataContext : DbContext
     {
         return base.Set<T>();
     }
-
-    public DbSet<User> Users { get; set; }
+    
     public DbSet<Rubric> Rubrics { get; set; }
     public DbSet<Article> Articles { get; set; }
     public DbSet<Comment> Comments { get; set; }
@@ -29,17 +29,16 @@ public class BlogDataContext : DbContext
             .WithOne(c => c.Author)
             .OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<Rubric>()
-            .HasOne(r => r.Parent)
-            .WithOne()
+            .HasMany(r => r.Rubrics)
+            .WithOne(r => r.Parent)
             .OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<Rubric>()
             .HasMany(r => r.Articles)
             .WithOne(a => a.Rubric)
             .OnDelete(DeleteBehavior.Cascade);
-    }
-
-    public void ExecuteCommand(string command, params object[] parameters)
-    {
-        base.Database.ExecuteSqlRaw(command, parameters);
+        modelBuilder.Entity<Comment>()
+            .HasOne(p => p.Parent)
+            .WithMany(c => c.Comments)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

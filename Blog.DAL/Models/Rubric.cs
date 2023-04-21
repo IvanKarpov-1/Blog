@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Blog.DAL.Contracts;
+﻿using Blog.DAL.Contracts;
+using System.ComponentModel.DataAnnotations;
 
 namespace Blog.DAL.Models;
 
@@ -8,11 +7,10 @@ public class Rubric : IHierarchical<Rubric>
 {
     [Key]
     public Guid Id { get; set; }
+    public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
     public string Name { get; set; }
-    public string Description { get; set; }
 
-
-    [ForeignKey("ParentID")]
     public Rubric Parent { get; set; }
-    public ICollection<Article> Articles { get; set; }
+    public ICollection<Rubric> Rubrics { get; set; } = new List<Rubric>();
+    public ICollection<Article> Articles { get; set; } = new List<Article>();
 }

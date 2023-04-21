@@ -1,18 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Microsoft.AspNetCore.Identity;
 
 namespace Blog.DAL.Models;
 
-public class User
+public class User : IdentityUser
 {
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public Guid Id { get; set; }
-    public string Name { get; set; }
-    public string Email { get; set; }
-    public string Password { get; set; }
+    public string DisplayName { get; set; }
+    public string Bio { get; set; }
+    public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
     public bool IsDeleted { get; set; }
 
-    public ICollection<Comment> Comments { get; set; }
-    public ICollection<Article> Articles { get; set; }
+    public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+    public ICollection<Article> Articles { get; set; } = new List<Article>();
 }

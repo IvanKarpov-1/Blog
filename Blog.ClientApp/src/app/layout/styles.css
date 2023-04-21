@@ -1,0 +1,59 @@
+body {
+  background-color: #EAEAEA !important;
+}
+
+.ui.inverted.top.fixed.menu {
+  background-image: linear-gradient(135deg, rgb(26, 25, 27) 0%, rgb(64, 58, 66) 69%, rgb(75, 68, 82) 89%) !important;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(135deg, rgb(26, 25, 27) 0%, rgb(64, 58, 66) 69%, rgb(75, 68, 82) 89%) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.buttons .or.modalOr::before {
+  width: 2.785714em;
+  margin-left: -1.39285714em;
+}
+
+.ui.form.clearing:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.ui.comments .comment .comments {
+  padding: 1em 0 0 1em;
+}
+
+.ui.grid {
+  margin-top: 0;
+}
+
+.ui.grid+.grid {
+  margin-top: 0;
+}
+
+.ui.button.rubricListButton {
+  background-color: transparent;
+  padding-left: 0;
+}

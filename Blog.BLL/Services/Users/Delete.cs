@@ -1,5 +1,4 @@
-﻿using Blog.BLL.Core;
-using Blog.DAL.Contracts;
+﻿using Blog.DAL.Contracts;
 using Blog.DAL.Models;
 using MediatR;
 
@@ -15,12 +14,10 @@ public class Delete
     public class Handler : IRequestHandler<Command>
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly MapperlyMapper _mapper;
 
-        public Handler(IUnitOfWork unitOfWork, MapperlyMapper mapper)
+        public Handler(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
-            _mapper = mapper;
         }
 
         public async Task Handle(Command request, CancellationToken cancellationToken)
