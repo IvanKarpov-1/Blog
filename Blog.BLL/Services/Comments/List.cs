@@ -39,9 +39,6 @@ public class List
                 .ThenInclude(x => x.Comments)
                 .ThenInclude(x => x.Comments)
                 .ThenInclude(x => x.Comments)
-                .ThenInclude(x => x.Comments)
-                .ThenInclude(x => x.Comments)
-                .ThenInclude(x => x.Comments)
                 .OrderBy(x => x.CreatedDate)
                 .ToListAsync(cancellationToken);
 

@@ -3,6 +3,7 @@ using Blog.BLL.ModelsDTOs;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
+using Blog.BLL.Contracts;
 using Blog.DAL.Models;
 
 namespace Blog.BLL.Services.Users;
@@ -17,9 +18,9 @@ public class Details
     public class Handler : IRequestHandler<Query, Result<UserDto>>
     {
         private readonly UserManager<User> _userManager;
-        private readonly TokenService _tokenService;
+        private readonly ITokenService _tokenService;
 
-        public Handler(UserManager<User> userManager, TokenService tokenService)
+        public Handler(UserManager<User> userManager, ITokenService tokenService)
         {
             _userManager = userManager;
             _tokenService = tokenService;

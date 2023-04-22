@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Blog.BLL.Contracts;
 
 namespace Blog.Infrastructure.Dependency;
 
@@ -69,7 +70,7 @@ public static class IdentityServiceExtensions
         services.AddTransient<IAuthorizationHandler, IsArticleAuthorRequirementHandler>();
         services.AddTransient<IAuthorizationHandler, IsCommentAuthorRequirementHandler>();
 
-        services.AddScoped<TokenService>();
+        services.AddScoped<ITokenService, TokenService>();
 
         return services;
     }

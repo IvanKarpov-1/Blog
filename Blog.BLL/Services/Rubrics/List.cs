@@ -49,7 +49,6 @@ public class List
                 {
                     await queryable
                     .SingleOrDefaultAsync(x => x.Id == request.ParentId, cancellationToken)
-
                 };
             }
 

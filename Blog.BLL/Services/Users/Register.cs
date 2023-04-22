@@ -1,4 +1,5 @@
-﻿using Blog.BLL.Core;
+﻿using Blog.BLL.Contracts;
+using Blog.BLL.Core;
 using Blog.BLL.ModelsDTOs;
 using Blog.DAL.Models;
 using MediatR;
@@ -17,9 +18,9 @@ public class Register
     public class Handler : IRequestHandler<Command, Result<UserDto>>
     {
         private readonly UserManager<User> _userManager;
-        private readonly TokenService _tokenService;
+        private readonly ITokenService _tokenService;
 
-        public Handler(UserManager<User> userManager, TokenService tokenService)
+        public Handler(UserManager<User> userManager, ITokenService tokenService)
         {
             _userManager = userManager;
             _tokenService = tokenService;
@@ -27,12 +28,12 @@ public class Register
 
         public async Task<Result<UserDto>> Handle(Command request, CancellationToken cancellationToken)
         {
-            if (await _userManager.Users.AnyAsync(x => x.UserName == request.RegisterDto.Username))
+            if (await _userManager.Users.AnyAsync(x => x.UserName == request.RegisterDto.Username, cancellationToken))
             {
                 return Result<UserDto>.Failure("Ім'я користувача вже зайняте").IsValidationError();
             }
 
-            if (await _userManager.Users.AnyAsync(x => x.Email == request.RegisterDto.Email))
+            if (await _userManager.Users.AnyAsync(x => x.Email == request.RegisterDto.Email, cancellationToken))
             {
                 return Result<UserDto>.Failure("Електронна пошта користувача вже зайнята").IsValidationError();
             }
